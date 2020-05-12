@@ -1,7 +1,7 @@
 # Личный проект «Нёрдс»
 
 * Студент: [Лукьяненко Анатолий](https://up.htmlacademy.ru/htmlcss/28/user/1474519).
-* Наставник: [Никита Сигов](https://up.htmlacademy.ru/htmlcss/28/user/17860).
+* Наставник: [Никита  Сигов](https://up.htmlacademy.ru/htmlcss/28/user/17860).
 
 ---
 
