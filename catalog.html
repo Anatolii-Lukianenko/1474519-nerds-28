@@ -1,0 +1,212 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8">
+    <title>Магазин готовых шаблонов "Нёрдс"</title>
+    <!--<title>HTML Academy: Нёрдс</title>-->
+  </head>
+  <body>
+
+    <p>Репозиторий создан для обучения на профессиональном онлайн‑курсе «<a href="https://htmlacademy.ru/intensive/htmlcss">HTML и CSS, уровень 1</a>».</p>
+
+
+   <header>
+
+   	<nav>
+   	 <a>
+   	   <img src="img/nerds-logo.svg" width="160" height="65" alt="Логотип магазина готовых шаблонов &laquo;Нёрдс&raquo;">
+   	 </a>
+   	 <ul>
+   	 	<li><a href="blank.html">Студия</a></li>
+   	 	<li><a href="blank.html">Клиенты</a></li>
+   	 	<li><a href="catalog.html">Магазин</a></li>
+   	 	<li><a href="blank.html">Контакты</a></li>
+   	 </ul>
+	 <a>
+   	   <img src="img/cart.svg" width="15" height="15" alt="иконка &laquo;Корзина&raquo;">
+   	 </a>
+   	 <a href="blank.html">Корзина</a>
+   	</nav>
+
+   </header>
+
+
+   <main>
+
+   		<section>
+   		  <h1>Магазин готовых шаблонов</h1>
+   		    <div>
+   		      <!--<h2>Выбор товара</h2>-->
+   		        <section>
+
+   		          <h3>Стоимость:</h3>
+   		          <form>
+				  <p>от 0 до 15000</p>
+				  <p><input type="range" id="volume" name="volume" min="0" max="15000"></p>
+				  <label for="volume">Введите стоимость от 1 до 15000</label>
+				  </form>
+    	        	    	
+   		          <h3>Сетка:</h3>
+			        <ul>
+			          <li>
+			          	<input type="radio" name="Grid" value="Adaptive" id="filter-adaptive" checked>
+			            <label for="filter-adaptive">Адаптивная</label>
+			          </li>
+			          <li>
+			          	<input type="radio" name="Grid" value="Fixed" id="filter-fixed">
+			            <label for="filter-fixed">Фиксированная</label>
+			          </li>
+			          <li>
+			          	<input type="radio" name="Grid" value="Rubber" id="filter-rubber">
+			            <label for="filter-rubber">Резиновая</label>
+			          </li>
+			        </ul>
+
+
+   		          <h3>Особенности:</h3>
+			        <ul>
+			          <li>
+			          	<input type="checkbox" name="Slider" id="filter-slider" checked>
+			            <label for="filter-slider">Слайдер</label>
+			          </li>
+			          <li>
+			          	<input type="checkbox" name="Benefits-block" id="filter-Benefits-block">
+			            <label for="filter-Benefits-block">Блок приемуществ</label>
+			          </li>
+			          <li>
+			          	<input type="checkbox" name="News" id="filter-news">
+			            <label for="filter-news">Новости</label>
+			          </li>
+			          <li>
+			          	<input type="checkbox" name="Gallery" id="filter-gallery">
+			            <label for="filter-gallery">Галерея</label>
+			          </li>
+			          <li>
+			          	<input type="checkbox" name="Cart" id="filter-cart">
+			            <label for="filter-cart">Корзина</label>
+			          </li>
+			        </ul>
+   		          <p>
+              		<button type="button">Показать</button>
+        		  </p>
+
+   		        </section>
+
+   		        <section>
+   		          <h3>Сортировать:</h3>
+   		         	<!--
+	   		          Здесь будет форма для сортировки товаров в каталоге
+	   		          <p>По цене</p>
+	   		          <p>По типу</p>
+	   		          <p>По названию</p>
+	   		        -->
+
+	   		         <!--<h2>Товары:</h2>-->
+	   		        <ul>
+	   		        	<li>			       
+							<article>
+							  <h3>Sedona</h3>
+							  <p><img src="img/Sedona.jpeg" width="360" height="349" alt="Иллюстрация &laquo;Sedona&raquo;"></p>
+							  <p>Sedona</p>
+							  <p>Информационный сайт для туристов</p>
+							  <!--<p><img src="img/Sedona-2.jpeg" width="360" height="231" alt="Вторая иллюстрация &laquo;Sedona-2&raquo;"></p>-->
+							  <button type="button">9 900 ₽</button>
+							</article>
+
+							<article>
+							  <h3>барбершоп "Бородинский"</h3>
+							  <p><img src="img/barbershop-Borodinski.jpeg" width="358" height="578" alt="Иллюстрация барбершоп &laquo;Бородинский&raquo;"></p>
+							</article>
+
+							<article>
+							  <h3>академия "А+"</h3>
+							  <p><img src="img/barbershop-Borodinski.jpeg" width="358" height="578" alt="Иллюстрация академия &laquo;А+&raquo;"></p>
+							</article>
+
+							<article>
+							  <h3>приложение "Pink"</h3>
+							  <p><img src="img/barbershop-Borodinski.jpeg" width="358" height="578" alt="Иллюстрация приложение &laquo;Pink&raquo;"></p>
+							</article>
+
+							<article>
+							  <h3>магазин "Mishka"</h3>
+							  <p><img src="img/barbershop-Borodinski.jpeg" width="358" height="578" alt="Иллюстрация магазин &laquo;Mishka&raquo;"></p>
+							</article>
+
+							<article>
+							  <h3>магазин "КвасТ"</h3>
+							  <p><img src="img/barbershop-Borodinski.jpeg" width="358" height="578" alt="Иллюстрация магазин &laquo;КвасТ&raquo;"></p>
+							</article>
+						</li>
+					</ul>
+
+   		        </section>   		      
+   		    </div>
+   		</section>
+
+
+   		        <section>
+   		          <!--<h3>Навигация по страницам каталога</h3>-->  		        	
+   		        	<ul>
+				      <li><a href="blank.html">1</a></li>
+				      <li><a href="blank.html">2</a></li>
+				      <li><a href="blank.html">3</a></li>
+				    </ul>
+   		          <p>
+              		<button type="button">Следующая</button>
+        		  </p>
+   		        </section>   		    
+   		
+   </main>
+
+
+
+   <footer>
+
+   <div>
+   	   <h2>NЁRDS DESIGN STUDIO</h2>
+   	<section>
+   		 	<!--<h3>Наш адрес</h3>-->
+   		  <p>191186, Санкт-Петербург,<br>ул. Б. Конюшенная, д. 19/8<br><br>тел. +7 (812) 275-75-75</p>
+   		    <!--<h3>Информация о пользователе</h3>-->
+   		    <button type="button">Напишите нам</button>
+  		 <div>
+    	    <!-- <h3>Напишите нам</h3>
+    	    	 Здесь будет форма для ввода данных пользователя (Имя, email) и письма
+    	    	<input type="text" name="Имя">
+    	    	<input type="email" name="email">
+    	    	<input type="text" name="текст письма">
+    	    	 -->
+            <button type="button">Отправить</button>
+         </div>
+   	</section>
+
+   	<section>
+          <!--<h3>Как до нас добраться</h3>
+  				    Здесь будет карта -->
+  			   <button type="button">Закрыть</button>
+   	</section>
+   </div>
+
+    <section>
+    		<h3>Давайте дружить, это выгодно!</h3>
+    		<p>Скидка 10% для друзей из социальных сетей</p>
+		     <ul>
+		       <li>
+		         <a href="#">Вконтакте</a>
+		       </li>
+		       <li>
+		        <a href="#">Фейсбук</a>
+		       </li>
+		       <li>
+		         <a href="#">Инстаграм</a>
+		       </li>
+		     </ul>
+
+    </section>
+
+   </footer>
+
+
+  </body>
+</html>
