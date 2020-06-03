@@ -33,59 +33,67 @@
    	    <div>
    		  <!--<h2>Выбор товара</h2>-->
    		    <section>
-   		      <h3>Стоимость:</h3>
-   		        <form>
-				  <p>от 0 до 15000</p>
-				  <p><input type="range" id="volume" name="volume" min="0" max="15000"></p>
-				  <label for="volume">Введите стоимость от 1 до 15000</label>
-				</form>    	        	    	
-   		      <h3>Сетка:</h3>
-			    <ul>
-			      <li>
-			      	<input type="radio" name="Grid" value="Adaptive" id="filter-adaptive" checked>
-			        <label for="filter-adaptive">Адаптивная</label>
-			        <img src="img/radio-on.svg" width="25" height="25" alt="Радиокнопка &laquo;Включена&raquo;">
-			      </li>
-			      <li>
-			        <input type="radio" name="Grid" value="Fixed" id="filter-fixed">
-			        <label for="filter-fixed">Фиксированная</label>
-			        <img src="img/radio-off.svg" width="25" height="25" alt="Радиокнопка &laquo;Выключена&raquo;">
-			      </li>
-			      <li>
-			        <input type="radio" name="Grid" value="Rubber" id="filter-rubber">
-			        <label for="filter-rubber">Резиновая</label>
-			        <img src="img/radio-off.svg" width="25" height="25" alt="Радиокнопка &laquo;Выключена&raquo;">
-			      </li>
-			    </ul>
-   		      <h3>Особенности:</h3>
-			    <ul>
-			      <li>
-			        <input type="checkbox" name="Slider" id="filter-slider" checked>
-			        <label for="filter-slider">Слайдер</label>
-			        <img src="img/checkbox-on.svg" width="26" height="23" alt="Флажек &laquo;Включен&raquo;">
-			      </li>
-			      <li>
-			        <input type="checkbox" name="Benefits-block" id="filter-Benefits-block">
-			        <label for="filter-Benefits-block">Блок приемуществ</label>
-			        <img src="img/checkbox-off.svg" width="23" height="23" alt="Флажек &laquo;Выключен&raquo;">
-			      </li>
-			      <li>
-			        <input type="checkbox" name="News" id="filter-news" checked>
-			        <label for="filter-news">Новости</label>
-			        <img src="img/checkbox-on.svg" width="26" height="23" alt="Флажек &laquo;Включен&raquo;">
-			      </li>
-			      <li>
-			        <input type="checkbox" name="Gallery" id="filter-gallery">
-			        <label for="filter-gallery">Галерея</label>
-			        <img src="img/checkbox-off.svg" width="23" height="23" alt="Флажек &laquo;Выключен&raquo;">
-			      </li>
-			      <li>
-			        <input type="checkbox" name="Cart" id="filter-cart">
-			        <label for="filter-cart">Корзина</label>
-			        <img src="img/checkbox-off.svg" width="23" height="23" alt="Флажек &laquo;Выключен&raquo;">
-			      </li>
-			    </ul>
-   		          <p><button type="button">Показать</button></p>
+   		        <h3>Стоимость:</h3>
+   		          <form>
+				    <p>от 0 до 15000</p>
+				    <p><input type="range" id="volume" name="volume" min="0" max="15000"></p>
+				    <label for="volume">Введите стоимость от 1 до 15000</label>
+				  </form>  
+
+			  <!--<h2>Фильтр товаров</h2>-->
+			    <form action="https://echo.htmlacademy.ru" method="get">
+			      <fieldset>
+			        <legend>Сетка</legend>
+			        <ul>
+			          <li>
+			      	    <input type="radio" name="Grid" value="Adaptive" id="filter-adaptive" checked>
+			            <label for="filter-adaptive">Адаптивная</label>
+			            <img src="img/radio-on.svg" width="25" height="25" alt="Радиокнопка &laquo;Включена&raquo;">
+			          </li>
+			          <li>
+			            <input type="radio" name="Grid" value="Fixed" id="filter-fixed">
+			            <label for="filter-fixed">Фиксированная</label>
+			            <img src="img/radio-off.svg" width="25" height="25" alt="Радиокнопка &laquo;Выключена&raquo;">
+			          </li>
+			          <li>
+			            <input type="radio" name="Grid" value="Rubber" id="filter-rubber">
+			            <label for="filter-rubber">Резиновая</label>
+			            <img src="img/radio-off.svg" width="25" height="25" alt="Радиокнопка &laquo;Выключена&raquo;">
+			          </li>
+			        </ul>
+			      </fieldset>
+			      <fieldset>
+			        <legend>Особенности</legend>
+			        <ul>
+			          <li>
+			            <input type="checkbox" name="Slider" id="filter-slider" checked>
+			            <label for="filter-slider">Слайдер</label>
+			            <img src="img/checkbox-on.svg" width="26" height="23" alt="Флажек &laquo;Включен&raquo;">
+			          </li>
+			          <li>
+			            <input type="checkbox" name="Benefits-block" id="filter-Benefits-block">
+			            <label for="filter-Benefits-block">Блок приемуществ</label>
+			            <img src="img/checkbox-off.svg" width="23" height="23" alt="Флажек &laquo;Выключен&raquo;">
+			          </li>
+			          <li>
+			            <input type="checkbox" name="News" id="filter-news" checked>
+			            <label for="filter-news">Новости</label>
+			            <img src="img/checkbox-on.svg" width="26" height="23" alt="Флажек &laquo;Включен&raquo;">
+			          </li>
+			          <li>
+			            <input type="checkbox" name="Gallery" id="filter-gallery">
+			            <label for="filter-gallery">Галерея</label>
+			            <img src="img/checkbox-off.svg" width="23" height="23" alt="Флажек &laquo;Выключен&raquo;">
+			          </li>
+			          <li>
+			            <input type="checkbox" name="Cart" id="filter-cart">
+			            <label for="filter-cart">Корзина</label>
+			            <img src="img/checkbox-off.svg" width="23" height="23" alt="Флажек &laquo;Выключен&raquo;">
+			          </li>
+			        </ul>
+			      </fieldset>
+			      <button type="submit">Показать</button>		      
+			    </form>   		          
    		    </section>
 
    		    <section>
@@ -182,22 +190,28 @@
    		  <!--<h3>Наш адрес</h3>-->
    		    <p>191186, Санкт-Петербург, <br> ул. Б. Конюшенная, д. 19/8<br><br>тел. +7 (812) 275-75-75</p>
    		    <!--<h3>Информация о пользователе</h3>-->
-   		    <button type="button">Напишите нам</button>
-  		  <div>
-    	    <!-- <h3>Напишите нам</h3>
-    	      Здесь будет форма для ввода данных пользователя (Имя, email) и письма
-    	        <input type="text" name="Имя">
-    	    	<input type="email" name="email">
-    	    	<input type="text" name="текст письма">
-    	    	 -->
-            <button type="button">Отправить</button>
-          </div>
+   		    <!--??????<button type="button">Напишите нам</button>-->
+   		      <form action="https://echo.htmlacademy.ru" method="post">
+   		      	<p>
+   		      	  <label for="letter-name">Ваше имя:</label>
+   		      	  <input id="letter-name" type="text" name="Ваше имя:" placeholder="Имя Фамилия" required>
+   		        </p>
+   		        <p>
+   		          <Label for="letter-email">Ваш email:</Label>
+   		          <input id="letter-email" type="email" name="Ваш email:" placeholder="email@example.com" required>
+   		        </p>
+   		        <p>
+   		          <label for="letter-text">Текст письма</label>
+   		          <input id="letter-text" type="text" name="Текст письма:" placeholder="В свободной форме">
+   		        </p>
+   		      	<button type="submit">Отправить</button>   		      	
+   		      </form>
+   		        <button type="button">Закрыть</button>	  
    	    </section>
 
    	    <section>
           <!--<h3>Как до нас добраться</h3>
-  				    Здесь будет карта -->
-  			   <button type="button">Закрыть</button>
+  				    Здесь будет карта -->  			   
    	    </section>
     </div>
 
@@ -221,7 +235,6 @@
 
 
   </body>
-
 
 
 </html>

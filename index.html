@@ -36,7 +36,7 @@
 	   	      <h3>Долго, дорого, <br> скрупулезно.</h3>
 	   		    <p>Математически выверенный дизайн <br> для вашего сайта или мобильного приложения.</p>
 	   		    <a href="blank.html">Узнать больше</a>
-	   		    <img src="img/slide1.png" width="760" height="430" alt="слайд-1 &laquo;Мобильные устройства&raquo;">
+	   		    <img src="img/nerds-index-slide1.png" width="760" height="430" alt="слайд-1 &laquo;Мобильные устройства&raquo;">
 	   	    </li>			  
 	   		<!--<li>
 	   		  <h3>Любим математику <br> как никто другой</h3>
@@ -92,7 +92,7 @@
    	    </section>
 
    	    <section>
-   	   	<p><img src="img/nerds-illustration-1.png" width="360" height="208" alt="Иллюстрация магазина готовых шаблонов &laquo;Нёрдс&raquo;"></p>
+   	   	<p><img src="img/nerds-illustration1.png" width="360" height="208" alt="Иллюстрация магазина готовых шаблонов &laquo;Нёрдс&raquo;"></p>
    	    <h3>С 2004 года любим точность во всем:</h3>
    		  <ul>
    		    <li>
@@ -115,16 +115,16 @@
    	    <!--Партнеры-->
    	      <ul>
    	 	    <li>
-   	 	      <a href="blank.html"><img src="img/logo-1.png" width="199" height="68" alt="Логотип &laquo;html academy&raquo;"></a>
+   	 	      <a href="blank.html"><img src="img/logo-11.png" width="199" height="68" alt="Логотип &laquo;html academy&raquo;"></a>
 	   	 	</li>
 	   	 	<li>
-	   	 	  <a href="blank.html"><img src="img/logo-2.png" width="209" height="90" alt="Логотип барбершопа&laquo;Бородинский&raquo;"></a>
+	   	 	  <a href="blank.html"><img src="img/logo-21.png" width="209" height="90" alt="Логотип барбершопа&laquo;Бородинский&raquo;"></a>
 	   	 	</li>
 	   	 	<li>
-	   	 	  <a href="blank.html"><img src="img/logo-3.png" width="185" height="52" alt="Логотип &laquo;Pink&raquo;"></a>
+	   	 	  <a href="blank.html"><img src="img/logo-31.png" width="185" height="52" alt="Логотип &laquo;Pink&raquo;"></a>
 	   	 	</li>
 	   	 	<li>
-	   	 	  <a href="blank.html"><img src="img/logo-4.png" width="173" height="84" alt="Логотип &laquo;Mishka&raquo;"></a>
+	   	 	  <a href="blank.html"><img src="img/logo-41.png" width="173" height="84" alt="Логотип &laquo;Mishka&raquo;"></a>
 	   	    </li>   	 	    
    	      </ul>
    	  </section>
@@ -138,25 +138,31 @@
    		  <!--<h3>Наш адрес</h3>-->
    		    <p>191186, Санкт-Петербург, <br> ул. Б. Конюшенная, д. 19/8<br><br>тел. +7 (812) 275-75-75</p>
    		    <!--<h3>Информация о пользователе</h3>-->
-   		    <button type="button">Напишите нам</button>
-  		  <div>
-    	    <!-- <h3>Напишите нам</h3>
-    	      Здесь будет форма для ввода данных пользователя (Имя, email) и письма
-    	        <input type="text" name="Имя">
-    	    	<input type="email" name="email">
-    	    	<input type="text" name="текст письма">
-    	    	 -->
-            <button type="button">Отправить</button>
-          </div>
+   		    <!--??????<button type="button">Напишите нам</button>-->
+   		      <form action="https://echo.htmlacademy.ru" method="post">
+   		      	<p>
+   		      	  <label for="letter-name">Ваше имя:</label>
+   		      	  <input id="letter-name" type="text" name="Ваше имя:" placeholder="Имя Фамилия" required>
+   		        </p>
+   		        <p>
+   		          <Label for="letter-email">Ваш email:</Label>
+   		          <input id="letter-email" type="email" name="Ваш email:" placeholder="email@example.com" required>
+   		        </p>
+   		        <p>
+   		          <label for="letter-text">Текст письма</label>
+   		          <input id="letter-text" type="text" name="Текст письма:" placeholder="В свободной форме">
+   		        </p>
+   		      	<button type="submit">Отправить</button>   		      	
+   		      </form>
+   		        <button type="button">Закрыть</button>	  
    	    </section>
 
    	    <section>
           <!--<h3>Как до нас добраться</h3>
-  				    Здесь будет карта -->
-  			   <button type="button">Закрыть</button>
+  				    Здесь будет карта -->  			   
    	    </section>
     </div>
-
+    				
     <section>
       <h3>Давайте дружить, это выгодно!</h3>
         <p>Скидка 10% для друзей из социальных сетей</p>
@@ -177,7 +183,6 @@
 
 
   </body>
-
 
 
 </html>
